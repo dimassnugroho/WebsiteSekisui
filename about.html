@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+  
+    .animate-marquee {
+      animation: marquee 20s linear infinite;
+    }
+  
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    </style>
+
+</head>
+<body class="bg-white  min-h-screen">
+    <!-- Header -->
+    <div class="max-w-[90%] md:max-w-[80%] lg:max-w-[1300px] mx-auto px-6 py-2  border-2 border-none rounded-b-4xl" >
+        <!-- Navbar -->
+        <nav class="flex flex-row md:flex-row justify-between items-center">
+          <img data-aos="fade-right" data-aos-duration="2000" src="src/Sekisui.png" alt="" class="w-1/4 md:w-1/7 lg:w-1/14 h-auto object-contain" />
+          <a data-aos="fade-left" data-aos-duration="2000" href="contact.html" class="mt-4 md:mt-0 px-4 py-2 rounded-full border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition">Contact Us</a>
+        </nav>
+    </div>
+
+    <!--Header Container-->
+    <section data-aos="zoom-in" data-aos-duration="1500" class="max-w-[90%] md:max-w-[80%] lg:max-w-[1400px] mx-auto  rounded-t-3xl px-20 py-12" style="background: linear-gradient(0deg, #FFF -4.96%, #C0DEFF 126.64%, #9DC0E5 136.49%, #4D84BE 146.98%, #447DBB 151.02%, #004EA2 163.83%);">
+  <div class="max-w-7xl mx-auto ">
+    
+    <!-- Back Button -->
+    <div class="mb-12">
+      <!-- Back To Home Container -->
+      <a data-aos="zoom-in-up" data-aos-duration="2000" href="index.html" class="relative -left-10 md:left-0 cursor-pointer flex items-center justify-start gap-4 text-[#0093FF] font-[Poppins] font-medium text-lg">
+        <button  class="flex items-center justify-center border border-[#8C8B8B] p-2 md:p-3 lg:p-4  cursor-pointer border-solid border-1 bg-transparent rounded-full  hover:bg-gray-200 transition duration-300">
+            <img src="src/ArrowLeft.png" class="w-5 md:w-7 lg:w-8" alt="">
+          </button>
+        <span>Back to Home</span>
+        </a>
+    </div>
+
+    <div class="flex flex-col items-center justify-center space-y-0 md:space-y-2 lg:space-y-6">
+        <!-- Tag -->
+        <div class="flex justify-center">
+            <div data-aos="fade-down" data-aos-duration="2000" class="flex items-center gap-3 py-1.5 px-4 rounded-full border border-gray-300 shadow text-sm font-medium md:text-base max-w-fit">
+            <span class="text-white rounded-full px-2 py-1 text-base" style="background: linear-gradient(180deg, #A3A3A3 0%, #080C2E 100%);">01</span>
+            <h3 class="text-[#5D5D7C] font-[Poppins] font-medium">
+                Recruitment
+            </h3>
+            </div>
+        </div>
+
+        <!-- Headline -->
+        <h1 data-aos="fade-left" data-aos-duration="2000" class="text-4xl md:text-5xl lg:6xl leading-12 md:leading-16 lg:leading-18 font-semibold text-gray-900  text-center mt-6 font-[Poppins] ">
+        Let Us <span class="text-[#004EA2] font-bold">Tell & Inform</span> You About <br> Sekisui
+        </h1>
+
+        <!-- Description -->
+        <p data-aos="fade-right" data-aos-duration="2000" class="mt-2 lg:mt-4 text-sm font-[Inter] md:text-xl text-gray-600 max-w-2xl  text-left">
+            Let Us Explain You About Sekisui.
+        </p>
+
+        <a data-aos="fade-up" data-aos-duration="2000" href="contact.html" class="mt-8 inline-block px-10 py-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-full transition" style="box-shadow: 2px 7px 25.6px rgba(0, 147, 255, 0.5);">
+            Contact Us →
+          </a>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-6 py-10">
+    <!-- Header -->
+    <div class="mb-8">
+        <div class="flex justify-start ">
+            <div data-aos="fade-down" data-aos-duration="1500" class="flex items-center gap-3 py-1.5 px-4 rounded-full border border-gray-300 shadow text-sm font-medium md:text-base max-w-fit">
+              <span class=" text-white rounded-full px-2 py-1 text-base" style="background: linear-gradient(180deg, #80C9FF 0%, #0093FF 100%);">02</span>
+              <h3 class="text-[#5D5D7C] font-[Poppins] font-medium">About</h3>
+            </div>
+          </div>
+          <h1 data-aos="fade-up" data-aos-duration="2000" class="text-left text-3xl md:text-6xl font-medium text-[#080C2E] max-w-3xl leading-18  mt-6 font-[Poppins]">
+            About <span class="text-[#004EA2] font-bold">Sekisui</span></h1>
+    </div>
+  
+    <!-- Grid 4 Columns -->
+  <div data-aos="zoom-in-up" data-aos-duration="2500" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Company Name</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">PT. Sekisui Techno Molding Indonesia</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Establishment Date</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">18 March 2013 (Operational 1 April 2013)</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Parent Companies</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">Sekisui Chemical Co., Ltd. & Adyawinsa Group</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Industry</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">Sekisui Chemical Co., Ltd. & Adyawinsa Group</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Business Type</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">Join Venture Japan Indonesia</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Main Products</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">Plastic Component, Plastic Container</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Head Office</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">
+        Jl. Angsana Raya Blok L6 No.1, Delta Silicon,<br />
+        Lippo Cikarang, Bekasi West Java, Indonesia
+      </p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-[#080C2E] font-[Poppins] text-xl">Financial Performance</h3>
+      <p class="font-normal text-[#303A42] font-[Inter] text-base">
+        Revenue Increased by 3.16%, Total Assets Grew by 5.21% (2023)
+      </p>
+    </div>
+
+  </div>
+  </section>
+
+  <!--Global-->
+  <section class="max-w-7xl mx-auto px-6 py-10"></section>
+  <!-- Global Header -->
+    <div class="flex flex-col items-center gap-6 text-center">
+        <div class="flex justify-center ">
+        <div data-aos="zoom-in" data-aos-duration="1500" class="flex items-center gap-3 py-1.5 px-4 rounded-full border border-gray-300 shadow text-sm font-medium md:text-base max-w-fit">
+            <span class=" text-white rounded-full px-2 py-1 text-base" style="background: linear-gradient(180deg, #80C9FF 0%, #0093FF 100%);">03</span>
+            <h3 class="text-[#5D5D7C] font-[Poppins] font-medium">Services</h3>
+        </div>
+        </div>
+        <h3 data-aos="fade-down" data-aos-duration="2000" class="text-3xl md:text-4xl lg:text-5xl font-medium text-[#080C2E] font-[Poppins] mx-w-2xl leading-16">
+        We Are A Company <span class="font-bold text-[#004EA2]">Works On Global
+        </h3>
+        <!-- Description -->
+        <p data-aos="fade-up" data-aos-duration="2000" class="text-sm md:text-lg max-w-4xl text-[#303A42] font-[Inter] font-light">
+            In addition to Japan, our company has offices in the United States, the Netherlands, Germany, China, Indonesia, and Thailand. As one of the leading global companies within the SEKISUI CHEMICAL Group, we offer excellent opportunities for those looking to work internationally. With about one-third of our employees having overseas work experience, this is an ideal environment for those seeking a rewarding global career.        </p>
+    </div>
+    <div class="mt-10">
+        <img src="src/AboutUs.png" alt=" " class="w-full h-auto object-cover  mt-6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+    </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-6 py-10">
+    <div class="max-w-7xl mx-auto px-6 py-6 mt-24">
+        <!-- Judul di tengah -->
+        <div class="flex justify-center mb-6">
+          <h3 data-aos="zoom-in-up" data-aos-duration="1500" class="text-lg font-medium text-[#929292] font-[Poppins] text-center">
+            Powered By Trusted Collaborations
+          </h3>
+        </div>
+      
+        <!-- Gambar-gambar dengan space between -->
+        <div class="overflow-hidden w-full bg-white py-4">
+          <div class="flex animate-marquee gap-8 w-max">
+            <img src="src/Client 1.png" alt="Client 1" class="h-32 object-contain" />
+            <img src="src/Client 2.png" alt="Client 2" class="h-32 object-contain" />
+            <img src="src/Client 3.png" alt="Client 3" class="h-32 object-contain" />
+            <img src="src/Client 4.png" alt="Client 4" class="h-32 object-contain" />
+            <img src="src/Client 5.png" alt="Client 5" class="h-32 object-contain" />
+            <img src="src/Client 6.png" alt="Client 6" class="h-32 object-contain" />
+            <!-- Duplikat agar looping terlihat seamless -->
+            <img src="src/Client 1.png" alt="Client 1" class="h-32 object-contain" />
+            <img src="src/Client 2.png" alt="Client 2" class="h-32 object-contain" />
+            <img src="src/Client 3.png" alt="Client 3" class="h-32 object-contain" />
+            <img src="src/Client 4.png" alt="Client 4" class="h-32 object-contain" />
+            <img src="src/Client 5.png" alt="Client 5" class="h-32 object-contain" />
+            <img src="src/Client 6.png" alt="Client 6" class="h-32 object-contain" />
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- Footer -->
+<footer data-aos="fade-up" data-aos-duration="2000" class="bg-gray-900 text-white px-6 py-10 md:px-16 md:py-12 mt-40">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-10">
+      
+      <!-- Contact -->
+      <div>
+        <h3 class="font-bold text-lg mb-4">Contact</h3>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-center space-x-2">
+            <span>📞</span>
+            <span>+62-813-1667-2456</span>
+          </li>
+          <li class="flex items-center space-x-2">
+            <span>📧</span>
+            <span>Jevanrazendra@Gmail.Com</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span>📍</span>
+            <span>Jl. Angsana Raya Blok L6 No.1,<br>
+              Delta Silicon, Lippo Cikarang<br>
+              Bekasi, Jawa Barat, Indonesia</span>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Links -->
+      <div>
+        <h3 class="font-bold text-lg mb-4">Links</h3>
+        <ul class="space-y-2 text-sm">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="recruitment.html" class="hover:underline">Recruitment</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Investment Disclosure -->
+      <div>
+        <h3 class="font-bold text-lg mb-4">Investment Disclosure</h3>
+        <p class="text-sm leading-relaxed">
+          When you invest with Atlas, you are more than a number; you are a partner. As a partner with us, you can access opportunities usually reserved only for the largest institutional investors. You can access a team driven only by excellence and results. You can access real estate investment opportunities designed with you in mind.
+        </p>
+      </div>
+    </div>
+  
+    <div class="mt-10 text-center text-xs text-gray-400">
+      STM @ All Right Reserved
+    </div>
+  </footer>
+  
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="myScript.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    
+</body>
+</html>
